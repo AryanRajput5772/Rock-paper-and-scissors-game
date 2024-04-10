@@ -2,6 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   text-align: center;
+  background-color: #565676;
 }
 
 .choices {
@@ -28,7 +29,7 @@ body {
 h1 {
   text-align: center;
   font-family: pristina;
-  color: #cbf7ed;
+  color: #ffffff;
   background-color: #2e1c2b;
   margin-top: 0px;
   height: 60px;
@@ -75,4 +76,32 @@ img {
   font-size: 2rem;
   padding: 1rem;
   border-radius: 1rem;
+}
+
+.user,
+.comp {
+  font-family: pristina;
+  font-size: 50px;
+}
+
+.scored {
+  display: flex;
+  justify-content: center;
+}
+
+.score-board {
+  border: 2px solid #2e1c2b;
+  height: 200px;
+  width: 550px;
+
+  border-radius: 25px;
+  background-color: #4c3549;
+  box-shadow: inset 5px 5px 5px 3px #2e1c2b, inset -5px -5px 5px 3px #2e1c2b;
+}
+
+h4 {
+  font-family: pristina;
+  font-size: 50px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
