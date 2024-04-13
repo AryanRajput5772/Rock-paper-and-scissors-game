@@ -105,3 +105,60 @@ h4 {
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
 }
+
+.comp-choice {
+  font-size: 2rem;
+}
+
+.para {
+  margin-left: 1px;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: pristina;
+  font-size: 35px;
+}
+
+.rock,
+.paper,
+.scissors {
+  display: flex;
+  flex-direction: column;
+}
+
+.compinfo {
+  height: 100px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+  border: 3px solid black;
+}
+
+.rock,
+.paper,
+.scissors {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.rock {
+  display: none;
+}
+
+.paper {
+  display: none;
+}
+
+.scissors {
+  display: none;
+}
+
+.container {
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+}

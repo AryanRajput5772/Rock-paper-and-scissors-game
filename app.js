@@ -7,10 +7,31 @@ const msg = document.querySelector("#msg");
 const userScorePara = document.querySelector("#user-score");
 const compScorePara = document.querySelector("#comp-score");
 
+const rockImg = document.querySelector(".rock");
+const paperImg = document.querySelector(".paper");
+const scissorsImg = document.querySelector(".scissors");
+
+const showCompChoice = (compChoice) => {
+  if (compChoice == "rock") {
+    scissorsImg.style.display = "none";
+    paperImg.style.display = "none";
+    rockImg.style.display = "inline";
+  } else if (compChoice == "paper") {
+    rockImg.style.display = "none";
+    scissorsImg.style.display = "none";
+    paperImg.style.display = "inline";
+  } else if (compChoice == "scissors") {
+    rockImg.style.display = "none";
+    paperImg.style.display = "none";
+    scissorsImg.style.display = "inline";
+  }
+};
+
 const genCompChoice = () => {
   const options = ["rock", "paper", "scissors"];
   const randNum = Math.floor(Math.random() * 3);
   let compChoice = options[randNum];
+  showCompChoice(compChoice);
   return compChoice;
 };
 
