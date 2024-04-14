@@ -10,7 +10,9 @@ body {
   flex-direction: row;
   justify-content: center;
   gap: 3rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+  transform: scale(0.8);
+  margin-top: 0px !important;
 }
 
 .choice {
@@ -50,7 +52,7 @@ img {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  margin-top: 1rem;
+
   gap: 3rem;
 }
 
@@ -67,10 +69,12 @@ img {
 #user-score,
 #comp-score {
   font-size: 3rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 #msg {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   background-color: #2e1c2b;
   color: #fff;
   font-size: 2rem;
@@ -82,19 +86,24 @@ img {
 .comp {
   font-family: pristina;
   font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .scored {
   display: flex;
   justify-content: center;
+  height: 140px;
+  margin-bottom: 20px;
 }
 
 .score-board {
   border: 2px solid #2e1c2b;
-  height: 200px;
-  width: 550px;
-
+  height: 160px;
+  width: 450px;
+  transform: scale(0.8);
   border-radius: 25px;
+  margin-top: 0;
   background-color: #4c3549;
   box-shadow: inset 5px 5px 5px 3px #2e1c2b, inset -5px -5px 5px 3px #2e1c2b;
 }
@@ -102,8 +111,8 @@ img {
 h4 {
   font-family: pristina;
   font-size: 50px;
-  margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .comp-choice {
@@ -111,28 +120,31 @@ h4 {
 }
 
 .para {
-  margin-left: 1px;
-  font-size: 2rem;
   font-weight: 800;
   font-family: pristina;
   font-size: 35px;
+  margin-top: 17px;
+  margin-bottom: 0px;
+  position: absolute;
+  margin-left: 3px;
 }
 
 .rock,
 .paper,
 .scissors {
-  display: flex;
-  flex-direction: column;
+  margin-top: 8px !important;
 }
 
 .compinfo {
-  height: 100px;
-  width: 400px;
+  height: 80px;
+  width: 300px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   border-radius: 25px;
   border: 3px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .rock,
