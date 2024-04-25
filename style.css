@@ -187,6 +187,7 @@ h4 {
   .para,
   .comp,
   .user {
-    font-family: pristina;
+    font-family: pristina, cursive, sans-serif;
+    font-display: swap;
   }
 }
