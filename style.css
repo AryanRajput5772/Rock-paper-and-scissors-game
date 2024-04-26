@@ -30,7 +30,7 @@ body {
 }
 h1 {
   text-align: center;
-  font-family: pristina;
+  font-family: pristina, cursive, monospace;
   color: #ffffff;
   background-color: #2e1c2b;
   margin-top: 0px;
@@ -84,7 +84,7 @@ img {
 
 .user,
 .comp {
-  font-family: pristina;
+  font-family: pristina, cursive, monospace;
   font-size: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -109,7 +109,7 @@ img {
 }
 
 h4 {
-  font-family: pristina;
+  font-family: pristina, cursive, monospace;
   font-size: 50px;
   margin-top: 0;
   margin-bottom: 0;
@@ -121,7 +121,7 @@ h4 {
 
 .para {
   font-weight: 800;
-  font-family: pristina;
+  font-family: pristina, cursive, monospace;
   font-size: 35px;
   margin-top: 17px;
   margin-bottom: 0px;
