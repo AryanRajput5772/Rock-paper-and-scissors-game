@@ -178,7 +178,7 @@ h4 {
 
 @media only screen and (max-width: 600px) {
   .compinfo {
-    width: 400px;
+    width: 350px;
   }
   body {
     transform: scale(0.8); /* Adjust font size */
@@ -188,7 +188,7 @@ h4 {
   .para,
   .comp,
   .user {
-    font-family: Brush Script MT, pristina, cursive, sans-serif;
+    font-family: Brush Script MT, pristina;
     font-display: swap;
   }
 }
