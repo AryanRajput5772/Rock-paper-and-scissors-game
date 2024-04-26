@@ -181,13 +181,14 @@ h4 {
     width: 400px;
   }
   body {
-    transform: scale(0.6); /* Adjust font size */
+    transform: scale(0.8); /* Adjust font size */
   }
   h1,
+  h4,
   .para,
   .comp,
   .user {
-    font-family: pristina, cursive, sans-serif;
+    font-family: Brush Script MT, pristina, cursive, sans-serif;
     font-display: swap;
   }
 }
